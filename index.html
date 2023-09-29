@@ -1,0 +1,62 @@
+<!-- TODO: USE TEMPLATES: https://www.freecodecamp.org/news/reusable-html-components-how-to-reuse-a-header-and-footer-on-a-website/ -->
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css" href="css/main.css" /> 
+		<script src="js/main.js"></script>
+		<title>CSERC</title>
+	</head>
+	<body onload="athlete_gallery_next()">
+		<div class="topbar">
+			<div>
+				<a href="index.html" class="topbar-button"> HOME </a>
+				<a href="html/profile_gallery.html" class="topbar-button"> PROFILES </a>
+			</div>
+			<div style="margin-left: auto">
+				<a href="html/donate.html" class="topbar-button"> DONATE </a>	
+				<a href="html/staff.html" class="topbar-button"> STAFF </a>
+				<a href="html/about.html" class="topbar-button"> ABOUT </a>	
+			</div>
+		</div>
+		
+		<h3 style="text-align: center"> COLORADO SPRINGS ELITE RUNNING COALITION </h3>
+		<p class="subtitle" style="text-align: center"> <em>Coalition - a combination or alliance between persons, countries, states, etc. A union of resources into one mass for a common purpose.</em> </p>
+		<div class="gallery-flag-container">
+			<img class="flag" src="img/logos/cserclogo.png" alt="CSERC Logo">
+			<div id="athlete-gallery" class="athlete-gallery">
+				<button class="gallery-info" onclick="athlete_gallery_info()">VIEW PROFILE</button>
+			</div>
+		</div>
+		
+		<div class="introduction">
+		</div>
+		
+		<p class="feed_text_title"> <b>Schedule of Events</b> </p>
+		<div class="feed">
+			<p class="feed_text">
+				<b>Oct 1st Twin Cities 10 Mile</b> <br><em>Afewerki Zeru</em><br><br>
+				<b>Oct 1st World Running Championships Half-Marathon</b> <br><em>Marcelo Laguera</em><br><br>
+				<b>Oct 1st World Running Championships 5k</b> <br><em>Tiidrek Nurme</em><br><br>
+				<b>Oct 14th The McKirdy Marathon</b> <br><em>Tiidrek Nurme</em><br><br>
+				<b>Oct 15th - Amsterdam Marathon</b> <br><em>Jessica Watychowicz</em><br><br>
+				<b>Oct 28th - Indianapolis Half-Marathon</b> <br><em>Lexie Greitzer</em><br><br>
+				<b>Oct 28th - Indianapolis Half-Marathon</b> <br><em>Marcus Graham</em><br><br>
+				<b>Oct 30th - November 4th - Pan-Am Games</b> <br><em>Marcelo Laguera</em><br><br>
+				<b>Oct 30th - November 4th - Pan-Am Games</b> <br><em>Rob Heppenstall</em><br><br>
+				<b>Nov. 5th - Porto Portugal Marathon</b> <br><em>Afewerki Zeru</em><br><br>
+				<b>Nov. 19th - Philadelphia Marathon</b> <br><em>Jerald Taylor</em><br><br>
+				<b>Dec 3rd - California International Marathon</b> <br><em>Marcus Graham</em><br><br>
+			</p>
+		</div>
+
+		<div class="sponsors_div">
+			<a href="https://runnersroost.com/runners-roost-colorado-springs-2/"><img src="img/logos/runnersroost.png" alt="Runners Roost Logo" height="75px"></a>
+			<a href="https://www.pikespeakathletics.com/training-center/"><img src="img/logos/ppatc.png" alt="PPATC Logo" height="75px"></a>
+			<a href="https://www.bigleaguegraphics.com/"><img src="img/logos/bigleaguelogo.png" alt="Big League Graphics Logo" height="75px"></a>
+			<a href="https://hyblcenter.org/"><img src="img/logos/hybllogo.png" alt="Hybl Logo" height="75px"></a>
+		</div>
+	</body>
+</html>

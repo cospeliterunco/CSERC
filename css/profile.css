@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+	min-height: 100vh;
+	position: relative;
+}
+
+.topbar {
+	background-color: #002868;
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+
+.topbar-button {
+	text-decoration: none;
+	user-select: none;
+	height: 100%;
+	font-family: arial;
+	font-size:calc(4px + 1.5vw);
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+	color:white;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+
+.topbar-button:hover {
+	color: black;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+
+.bio {
+	max-width:33vw;
+}
+
+.bio p{
+	text-align:justify;
+}
+
+.flag {
+	display: block;
+	max-width:33vw;
+	max-height:100vw;
+	width: auto;
+	height: auto;
+	border:3px solid black;
+}
+
+.personal {
+	max-width:33vw;
+}
+
+.athlete-image{
+	width: 33vw;
+	border: 3px solid black;
+}
+
+.contact{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+/* DEPRECATED
+.bottombar {
+	background-color: #002868;
+	height: 4vh;
+	width: 100%;
+	bottom: 0;   
+	position: fixed; 
+	display: flex;
+	justify-content: center;	
+}
+
+.design-contact{
+	margin: 0;
+	padding-top: 2px;
+	font-size: 12px;
+	color: white;
+} */
+
+.sponsors_div{
+	padding-top: 15vh;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+h3{
+	font-family: arial;
+	font-size: 40px;
+	color:black;
+}
