@@ -176,6 +176,7 @@ h3{
 	width: 100%;
 	padding-top: 5vh;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
 

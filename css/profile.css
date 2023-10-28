@@ -94,8 +94,13 @@ body {
 } */
 
 .sponsors_div{
-	padding-top: 15vh;
+	/* bottom: 0;   
+	position: fixed;
+	background-color:red; */
+	width: 100%;
+	padding-top: 5vh;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
 

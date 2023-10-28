@@ -109,8 +109,9 @@ body {
 	position: fixed;
 	background-color:red; */
 	width: 100%;
-	padding-top: 15vh;
+	padding-top: 5vh;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
 
