@@ -1,4 +1,4 @@
-athletes = ["azeru", "bbohling", "jtaylor", "jgockley", "jwatychowicz", "lalmasri", "lgreitzer", "mgraham", "mlaguera", "rheppenstall", "tstaines", "tnurme"]
+athletes = ["azeru", "bbohling", "jgockley", "jwatychowicz", "lalmasri", "lgreitzer", "mgraham", "mlaguera", "rheppenstall", "tstaines", "tnurme"]
 image_index = Math.floor(Math.random() * athletes.length);
 var interval = setInterval(athlete_gallery_next, 5000);
 
